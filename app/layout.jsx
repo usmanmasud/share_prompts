@@ -21,4 +21,4 @@ const RootLayout = ({ children }) => {
     )
 }
 
-export default layout
+export default RootLayout
