@@ -19,6 +19,7 @@ const CreatePrompt = () => {
         e.preventDefault();
         setSubmiting(true);
 
+
         try {
             const response = await fetch('/api/prompt/new', {
                 method: "POST",
