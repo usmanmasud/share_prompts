@@ -3,7 +3,6 @@ import Prompt from "@models/prompt";
 
 export const POST = async (request) => {
   const { userId, prompt, tag } = await request.json();
-
   console.log("userId:", userId);
 
   try {
